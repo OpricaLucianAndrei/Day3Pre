@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+        body {
+            margin: 0;
+        }
+        .main-section {
+            padding: 20px;
+        }
+        .image-container{
+            height: 500px;
+            background-image: url(https://www.campania.info/wp-content/uploads/sites/111/sorrento-hd.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;   
+            background-position-y: -100px;  
+            text-align: right;
+            color: white;       
+        }
+        h1 {
+            font-family: Prata;
+            font-size: 64px;
+            font-weight: 400;
+        }
+        h3 {
+            font-family: Prata;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0;
+        }
+        h1, h3 {
+            margin-bottom: 0;
+        }
+        body {
+            font-family: Montserrat;
+        }
+        a {
+            font-family: Montserrat;
+            font-weight: 600;
+            font-style: italic;
+            color: white;
+        }
+        .my-list{
+            background-image: linear-gradient(to right, rgb(0,113,173), rgb(254,216,112));
+            padding: 22px;
+            margin-bottom: 0px;
+            margin-top: 56px;
+            border-radius: 6px;
+            color: white;
+        }   
+        .Lista{
+            list-style: none;
+            padding: 0;
+        }
+        .linkposti{
+            padding-left: 22px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-bottom: 1px;
+            border-color: #dfdfdf;
+        }
+        p {
+            font-size: small;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+      <div class="image-container">
+           <h1>SORRENTO</h1>
+           <h3>Campania</h3>
+           <h4>Autore: <a href="https://www.campania.info/">Campania.info</h4></a>
+      </div>
+     <div class="my-list">
+         <h6>Luoghi correlati</h6>
+     </div>
+     <div>
+        <ul class="Lista">
+            <li class="linkposti"><a href="./Positano.html" style="color: black;"><p>Positano</p></a></li>
+            <li class="linkposti"><a href="./Amalfi.html" style="color: black;"><p>Amalfi</p></a></li>
+            <li class="linkposti"><a href="./Scala.html" style="color: black;"><p>Scala</p></a></li>
+            <li class="linkposti"><a href="./Furore.html" style="color: black;"><p>Furore</p></a></li>
+          </ul>
+     </div>
+    </div>
+    <footer>
+       <a href="./index.html" align="center"><h2>HOME</h2></a>
+    </footer>
+</body>
+</html>
